@@ -958,27 +958,27 @@
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="ARDUINO1" gate="G$1" pin="D2"/>
-<wire x1="48.26" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
-<label x="48.26" y="20.32" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="ESP1" gate="G$1" pin="TX/GPIO1/D7"/>
+<wire x1="119.38" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
+<label x="119.38" y="43.18" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
+<segment>
+<pinref part="ARDUINO1" gate="G$1" pin="~D3"/>
+<wire x1="48.26" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
+<label x="48.26" y="22.86" size="1.27" layer="95" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="RX" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="127" y1="53.34" x2="127" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="127" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 <label x="129.54" y="55.88" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
-</net>
-<net name="RX" class="0">
 <segment>
-<pinref part="ARDUINO1" gate="G$1" pin="~D3"/>
-<wire x1="48.26" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
-<label x="48.26" y="22.86" size="1.27" layer="95" ratio="10" xref="yes"/>
-</segment>
-<segment>
-<pinref part="ESP1" gate="G$1" pin="TX/GPIO1/D7"/>
-<wire x1="119.38" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
-<label x="119.38" y="43.18" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="ARDUINO1" gate="G$1" pin="D2"/>
+<wire x1="48.26" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
+<label x="48.26" y="20.32" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
 </nets>
